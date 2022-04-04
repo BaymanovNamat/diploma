@@ -3,7 +3,10 @@ import "./Nav.css";
 
 function Nav() {
   return (
-    <nav>
+    <nav className="Nav">
+      <div>
+        Fresh Coffee Beans
+      </div>
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">Categories</a></li>
