@@ -3,7 +3,12 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    null
+    <footer className="Footer">
+      <div className="Footer__title">
+        Modern mobile Phones 2022-2023!
+      </div>
+      
+    </footer>
   );
 }
 

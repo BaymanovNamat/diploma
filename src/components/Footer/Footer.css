@@ -1,0 +1,8 @@
+.Footer {
+  background-color: rgb(160, 158, 158);
+  display: flex;
+  justify-content: center;
+}
+.Footer .Footer__title {
+  padding: 20px 10px;
+}

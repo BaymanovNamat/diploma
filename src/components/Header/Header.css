@@ -1,0 +1,24 @@
+.Header {
+  min-height: 40vh;
+  background-size: cover;
+  
+}
+.containers {
+  display: flex;
+  flex-direction: column;
+}
+.containers__hollow {
+  min-height: 40px;
+}
+.Header h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  color: aliceblue;
+  padding: 5px;
+  
+}
+.Header p {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 5px;
+}
