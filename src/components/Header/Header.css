@@ -3,11 +3,11 @@
   background-size: cover;
   
 }
-.containers {
+.Header__container {
   display: flex;
   flex-direction: column;
 }
-.containers__hollow {
+.container__hollow {
   min-height: 40px;
 }
 .Header h2 {

@@ -9,8 +9,8 @@ function Header() {
   return (
 
     <header className="Header" style={styles}>
-      <div className="containers">
-        <div className="containers__hollow">
+      <div className="Header__container">
+        <div className="container__hollow">
           
         </div>
         

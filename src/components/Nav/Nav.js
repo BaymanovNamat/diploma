@@ -4,7 +4,7 @@ import "./Nav.css";
 function Nav() {
   return (
     <nav className="Nav">
-      <div className="container">
+      <div className="Nav__container">
         <div className="title">
           New Super Mobiles
         </div>
