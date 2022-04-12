@@ -1,3 +1,4 @@
+import Logo from "../ui/Logo/Logo";
 import "./Nav.css";
 
 
@@ -5,9 +6,7 @@ function Nav() {
   return (
     <nav className="Nav">
       <div className="Nav__container">
-        <div className="title">
-          New Super Mobiles
-        </div>
+        <Logo/>
         <ul>
           <li>
             <a href="/">
