@@ -1,5 +1,6 @@
 .Nav {
-  background-color: aqua;
+  background-color: rgb(9, 45, 207);
+  
 }
 .Nav__container {
   display: flex;
@@ -12,14 +13,4 @@
   margin: 0;
   list-style: none;
   display: flex;
-}
-.Nav li a {
-  display: block;
-  padding: 1rem;
-  text-decoration: none;
-  font-style: italic;
-  color: rgb(0, 0, 0);
-}
-.Nav li a:hover{
-  background-color: rgb(121, 255, 255);
 }

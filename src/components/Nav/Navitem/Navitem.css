@@ -1,0 +1,10 @@
+.Navitem a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: 'Source Serif Pro', serif;
+}
+.Navitem a:hover{
+  background-color: rgb(39, 72, 218);
+}
