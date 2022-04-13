@@ -9,16 +9,16 @@ function Nav() {
       <div className="Nav__container">
         <Logo/>
         <ul>
-          <Navitem url="/">
+          <Navitem url="/" active>
             Main page
           </Navitem>
-          <Navitem url="/">
+          <Navitem url="/allandroid">
             All about Androids
           </Navitem>
-          <Navitem url="/">
+          <Navitem url="/alliphones">
             All about Iphones
           </Navitem>
-          <Navitem url="/">
+          <Navitem url="/faq">
             FAQ about this website 
           </Navitem>
         </ul>

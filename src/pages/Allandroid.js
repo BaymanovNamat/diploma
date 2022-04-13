@@ -2,7 +2,7 @@ function Allandroid(props) {
   return (
     <article>
       <h2>
-
+        Android powers some of the world’s top cameras. So when the action speeds up or the lights go down low, you always get that perfect shot.
       </h2>
 
       <ul>

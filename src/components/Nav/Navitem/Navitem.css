@@ -5,6 +5,9 @@
   color: rgb(255, 255, 255);
   font-family: 'Source Serif Pro', serif;
 }
+.active {
+  border-bottom: 3px solid white;
+}
 .Navitem a:hover{
   background-color: rgb(39, 72, 218);
 }

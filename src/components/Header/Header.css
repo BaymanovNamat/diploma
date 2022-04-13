@@ -1,24 +1,28 @@
 .Header {
-  min-height: 40vh;
+  min-height: 60vh;
   background-size: cover;
-  
+  /* background-repeat: repeat; */
+  background-position: 50% 36%;
+  /* background-attachment: scroll; */
 }
 .Header__container {
   display: flex;
   flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 .container__hollow {
   min-height: 40px;
 }
 .Header h2 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   color: aliceblue;
-  padding: 5px;
+  padding: 0 1.5rem;
   
 }
 .Header p {
   color: rgb(255, 255, 255);
   font-size: 16px;
-  padding: 5px;
+  padding: 0 1.5rem;
 }
