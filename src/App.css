@@ -1,3 +1,11 @@
+.route__flex {
+  display: flex;
+  justify-content: center;
+}
 .route__container {
-  padding: 0 1.5rem;
+  width: 1200px;
+}
+
+.route__content {
+
 }

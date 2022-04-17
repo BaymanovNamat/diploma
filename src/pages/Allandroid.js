@@ -1,66 +1,124 @@
 function Allandroid(props) {
   return (
-    <article>
-      <h2>
-        Android powers some of the world’s top cameras. So when the action speeds up or the lights go down low, you always get that perfect shot.
-      </h2>
+    <article className="Allandroid">
+      <div className="Allandroid__container">
+        <div className="Allandroid__flex">
+          <h2>
+            What is Android full information?
+          </h2>
+          <div>
+            <p>
+              <strong>
+                Who invented Android?
+              </strong>
+              <br />
+              Google
+              The Android operating system was first developed by Android, Inc., a software company located in Silicon Valley before Google acquired it in 2005. Investors and electronics industry analysts have questioned Google's true intentions for entering the mobile market space since that acquisition.
+            </p>
+            <p>
 
-      <ul>
-        <li>
-          Samsung
-          Galaxy Z Fold3
-        </li>
+              Android is a software package and linux based operating system for mobile devices such as tablet computers and smartphones. It is developed by Google and later the OHA (Open Handset Alliance). Java language is mainly used to write the android code even though other languages can be used.
 
-        <li>
-          Samsung
-          Galaxy Z Flip3
-
-        </li>
-
-        <li>
-          Microsoft
-          Surface Duo 2
-        </li>
-
-        <li>
-          Motorola
-          Razr
-        </li>
-
-        <li>
-          Samsung
-          Galaxy S21 5G
-        </li>
-
-        <li>
-          Samsung
-          Galaxy Note 20
-        </li>
+            </p>
+            <p>
+              Android powers some of the world’s top cameras. So when the action speeds up or the lights go down low, you always get that perfect shot.</p>
 
 
-        <li>
-          Motorola
-          Edge Plus 5G
-        </li>
+            <p>
+              <strong>
+                Why android?
+              </strong>
+              <br />
+              Apple and Google both have fantastic app stores. But Android is far superior at organizing apps, letting you put important stuff on the home screens and hide less useful apps in the app drawer. Also, Android's widgets are much more useful than Apple's.
+            </p>
 
-        <li>
-          Nokia
-          8.3 5G
-        </li>
+            <p>
+              <strong>
+                Which OS is used in Android?
+              </strong>
+              <br />
+              <mark>
+                Linux
+              </mark>
+              <br />
+              Android is a Linux-based OS that uses Linux 2.6 to provide core services such as security, memory management, process management, network stack, and a driver model. It offers a wide range of libraries that enable the app developers to build different applications.
+            </p>
 
-        <li>
-          Oppo
-          Find X2 Pro 5G
 
-          Xiaomi
-          Mi 10 Pro
-        </li>
-        <li>
-          Sony
-          Xperia 1 ii
-        </li>
+            <p>
+              <strong>
+                Are androids easier to hack than iPhones?
+              </strong>
+              <br />
+              <mark>
+                Android makes it easier for hackers to develop exploits,
+              </mark>
+              increasing the threat level. Apple's closed development operating system makes it more challenging for hackers to gain access to develop exploits. Android is the complete opposite.
 
-      </ul>
+            </p>
+
+
+            <p>
+              <strong>
+                Which system is safer iOS or Android?
+              </strong>
+              <br />
+              security. While
+              <mark>
+                iOS may be considered more secure,
+              </mark>
+
+              it's not impossible for cybercriminals to hit iPhones or iPads with malicious software. Because of this, the owners of both Android and iOS devices need to be aware of possible malware and viruses, and be careful when downloading apps from third-party app stores.
+            </p>
+
+            <p>
+              <strong>
+                What is the best phone in the world?
+              </strong>
+              <br />
+
+              <mark>
+                The best phones you can buy today
+              </mark>
+              <br />
+
+              <ol>
+                <li>
+                  iPhone 13 Pro Max. The best phone overall. ...
+                </li>
+                <li>
+                  Samsung Galaxy S22 Ultra. Samsung's best phone. ...
+                </li>
+                <li>
+                  iPhone 13. The best phone for the money. ...
+                </li>
+                <li>
+                  Google Pixel 6. The best Android experience for a great price. ...
+                </li>
+                <li>
+                  Google Pixel 5a. The best budget camera phone. ...
+                </li>
+
+
+                <li>
+                  iPhone 13 Pro. ...
+                </li>
+                <li>
+                  OnePlus 10 Pro. ...
+                </li>
+                <li>
+                  Google Pixel 6 Pro.
+                </li>
+              </ol>
+
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+
+
     </article>
   );
 };

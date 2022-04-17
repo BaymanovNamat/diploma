@@ -1,28 +1,44 @@
 .Header {
-  min-height: 40vh;
-  background-size: cover;
-  /* background-repeat: repeat; */
-  background-position: 80% 36%;
-  /* background-attachment: scroll; */
-}
-.Header__container {
+  min-height: 50vh;
+  
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+
+  background: url(../../assets/header.jpg) 50%/cover;
+}
+
+.Header__container {
+  
   /* justify-content: center; */
   /* align-items: center; */
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  
 }
-.container__hollow {
-  min-height: 40px;
+.flex__container {
+  /* display: flex; */
+  /* flex-direction: column; */
+  justify-content: right;
+  align-items: center;
+  
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
 }
 .Header h2 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 25px;
-  color: aliceblue;
+  font-size: 31px;
+  color: rgb(255, 255, 255);
   padding: 0 1.5rem;
   
 }
 .Header p {
   color: rgb(255, 255, 255);
-  font-size: 16px;
+  font-size: 20px;
   padding: 0 1.5rem;
 }

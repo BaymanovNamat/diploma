@@ -13,13 +13,17 @@ function App() {
       < Nav/>
 
       <Header/>
-      <div className="route__container">
+      <div className="route__flex">
+        <div className="route__container">
+        <div className="route__content">
         <Routes>
           <Route path="/" element={<Mainpage/>}/>
           <Route path="/allandroid" element= {<Allandroid/>}/>
           <Route path="alliphones" element={<Alliphones/>}/>
           <Route path="faq" element={<Faq/>}/>
       </Routes>
+        </div>
+      </div>
       </div>
 
 

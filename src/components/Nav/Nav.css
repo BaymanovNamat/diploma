@@ -1,11 +1,15 @@
 .Nav {
-  background-color: rgb(9, 45, 207);
-  
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 3px;
+  display: flex;
+  justify-content: center;
 }
 .Nav__container {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
+  border-bottom: 2px solid black;
+  width: 1200px;
 }
 
 .Nav ul {

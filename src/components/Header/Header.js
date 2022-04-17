@@ -3,23 +3,28 @@ import headerImage from "../../assets/header.jpg";
 function Header() {
 
   const styles = {
-    backgroundImage: `url(${headerImage})`,
+    // backgroundImage: `url(${headerImage})`,
   };
 
   return (
 
     <header className="Header" style={styles}>
-      <div className="Header__container">
-        <div className="container__hollow">
-          
+      <div className="Header__container" >
+
+        <div className="flex__container">
+
+
+          <div className="content">
+            <h2>
+              All for your comfortable!
+            </h2>
+            <p>
+              We try for you and we wish that you trust us and all this builds on the confidence!
+            </p>
+          </div>
         </div>
-        
-        <h2>
-          All for your comfortable!
-        </h2>
-        <p>
-          We try for you and we wish that you trust us and all this builds on the confidence!
-        </p>
+
+
       </div>
     </header>
   );
