@@ -6,13 +6,15 @@
   font-family: 'Source Serif Pro', serif;
   font-size: 18px;
 
+
+  
 }
 .active {
   /* border-bottom: 3px solid transparent; */
-  background-color: rgba(224, 227, 196, 0.426);
-  transition-duration: .8s;
+
+  border-bottom: 2px solid black;
 }
 .Navitem a:hover{
-  transition-duration: .8s;
   background-color: rgba(224, 227, 196, 0.426);
+  /* transition-duration: .5s; */
 }
