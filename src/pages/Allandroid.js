@@ -1,13 +1,11 @@
+import Header from "../components/Header/Header";
+import headerImage from "../assets/android.jpg";
 function Allandroid(props) {
   return (
-    <article className="Allandroid">
-      <div className="Allandroid__container">
-        <div className="Allandroid__flex">
-          <h2>
-            What is Android full information?
-          </h2>
-          <div>
-            <p>
+
+    <>
+      <Header title={"What is Android full information?"} image={headerImage}>
+        <p>
               <strong>
                 Who invented Android?
               </strong>
@@ -15,6 +13,9 @@ function Allandroid(props) {
               Google
               The Android operating system was first developed by Android, Inc., a software company located in Silicon Valley before Google acquired it in 2005. Investors and electronics industry analysts have questioned Google's true intentions for entering the mobile market space since that acquisition.
             </p>
+
+            <div>
+            
             <p>
 
               Android is a software package and linux based operating system for mobile devices such as tablet computers and smartphones. It is developed by Google and later the OHA (Open Handset Alliance). Java language is mainly used to write the android code even though other languages can be used.
@@ -113,13 +114,8 @@ function Allandroid(props) {
 
             </p>
           </div>
-
-        </div>
-      </div>
-
-
-
-    </article>
+      </Header>
+    </>
   );
 };
 

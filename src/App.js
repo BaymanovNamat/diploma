@@ -11,14 +11,11 @@ function App() {
       
       <Layout>
         <Routes>
-
           <Route path="/" element={<Mainpage/>}/>
           <Route path="/allandroid" element= {<Allandroid/>}/>
           <Route path="alliphones" element={<Alliphones/>}/>
           <Route path="faq" element={<Faq/>}/>
-
         </Routes>
-
       </Layout>
 
 

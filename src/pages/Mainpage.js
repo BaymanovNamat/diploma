@@ -1,13 +1,11 @@
-
+import Header from "../components/Header/Header";
+import headerImage from "../assets/headerr.jpg";
 function Mainpage(props) {
   return (
-    <article className="Mainpage">
-      <div className="Mainpage__container">
-        <div className="Mainpage__flex">
-          <h2>
-            Internet-Store a Sell Mobiles.
-          </h2>
-          <div>
+
+    <>
+      <Header title={"Internet-Store a Sell Mobiles."} image={headerImage}>
+      <div>
             <p>
               <mark>
                 What is mobile phone introduction?
@@ -80,11 +78,8 @@ function Mainpage(props) {
               With respect developers☺!
             </p>
           </div>
-        </div>
-
-      </div>
-
-    </article>
+      </Header>
+    </>
   );
 };
 

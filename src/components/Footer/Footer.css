@@ -4,16 +4,3 @@
   justify-content: center;
   border-top: 2px solid black;
 }
-.Footer__container {  
-  width: 1200px;
-}
-.Footer__flex {
-  display: flex;
-  justify-content: center;
-}
-
-.Footer .Footer__title {
-  padding: 20px 10px;
-  font-size: 20px;
-  
-}
