@@ -5,7 +5,7 @@ import Faq from "./pages/Faq";
 import Mainpage from "./pages/Mainpage";
 import "./App.css";
 import Layout from "./components/Layout/Layout";
-import Androids from "./pages/Androids";
+import Androids from "./pages/Android/Androids";
 import NotFound from "./pages/NotFound";
 function App() {
   return (
