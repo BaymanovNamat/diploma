@@ -8,8 +8,8 @@ function ProductItem({ product }) {
   return ( 
     <>   
       <div className={classes.ProductItem}>
-        <img src={product.image}/>
-        <section>
+        <img src={product.image} alt="#"/>
+        <section> 
           <Link to={product.path}>
             {product.title}
           </Link>
