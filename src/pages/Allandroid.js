@@ -1,37 +1,10 @@
 import Header from "../components/Header/Header";
 import headerImage from "../assets/android.jpg";
 import ProductList from "../components/ProductList/ProductList";
-import productImage from "../assets/product1.jpg";
-import productImage2 from "../assets/product2.jpg";
-import productImage3 from "../assets/product3.jpg";
-import productImage4 from "../assets/product4.jpg";
+import { getProducts } from "../data/Products";
+
 function Allandroid(props) {
-  const products = {
-    a: {
-      image: productImage,
-      price: "1200",
-      title: "iPhone 13 Pro Max",
-      path: "/",
-    },
-    b: {
-      image: productImage2,
-      price: "1500",
-      title: "Sumung Galaxy S22 ultra",
-      path: "/",
-    },
-    c: {
-      image: productImage3,
-      price: "1800",
-      title: "iPhone 13",
-      path: "/",
-    },
-    d: {
-      image: productImage4,
-      price: "2200",
-      title: "Google Pixel 6",
-      path: "/",
-    },
-  };
+  
 
   return (
 
@@ -148,7 +121,7 @@ function Allandroid(props) {
           </div>
       </Header>
 
-      <ProductList products={products}/>
+      <ProductList products={getProducts()}/>
     </>
   );
 };
