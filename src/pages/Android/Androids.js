@@ -17,7 +17,7 @@ function Androids() {
     <>
       <div className={classes.Androids}>
         <Header title={product.title} >
-          <img src={product.image}/>
+          <img src={product.image} alt="#"/>
           {product.description}
         </Header>
       </div>
