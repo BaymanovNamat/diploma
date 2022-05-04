@@ -56,6 +56,8 @@
   .Nav .list.active {
     top: 122px;
     right: -6px;
+
+    transition: all .3s;
   }
   .list a {
     text-align: center;
