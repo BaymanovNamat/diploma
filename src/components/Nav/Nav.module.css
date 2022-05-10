@@ -1,13 +1,15 @@
 .Nav {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(76, 126, 207);
   padding-bottom: 3px;
   display: flex;
   justify-content: center;
+  align-items: center;
 
+  
 
-  position: fixed;
+  /* position: fixed;
   z-index: 1;
-  width: 100%;
+  width: 100%; */
 }
 .Nav__container {
   display: flex;
@@ -15,6 +17,8 @@
   align-items: center;
   border-bottom: 2px solid black;
   width: 980px;
+
+  padding-right: 1rem;
 }
 
 .Nav .list {
@@ -23,7 +27,13 @@
   list-style: none;
   display: flex;
 }
-@media (max-width: 870px) {
+
+@media (max-width: 885px) {
+  .Nav .list {
+    display: none;
+  }
+}
+/* @media (max-width: 870px) {
   .Nav {
     height: 62px;
   }
@@ -71,7 +81,6 @@
     top: 0px;
     left: -25px;
 
-    /* background-color: aqua; */
   }
   .burger::before {
     content: "";
@@ -120,4 +129,4 @@
   .burger.active span {
     transform: scale(0);
   }
-}
+} */

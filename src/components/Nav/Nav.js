@@ -1,21 +1,31 @@
 import Logo from "../ui/Logo/Logo";
 import Navitem from "./Navitem/Navitem";
 import classes from "./Nav.module.css";
-import { useState } from "react";
+import NavToggle from "./NavToggle/NavToggle";
+// import { useState } from "react";
+
 
 function Nav() {
 
-  const [toggle, setToggle] = useState(false);
+  // const [toggle, setToggle] = useState(false);
 
-  function onToggle() {
-    setToggle(!toggle);
-  };
+  // function onToggle() {
+  //   setToggle(!toggle);
+  // };
+
+  // <ul className={`${classes.list} ${toggle ? `${classes.active}` : "" }`}></ul>
+
+//   <div className={`${classes.burger} ${toggle ? `${classes.active}` : "" }`} onClick={onToggle}>
+//   <span></span>
+// </div>
+
+
 
   return (
     <nav className={classes.Nav}>
       <div className={classes.Nav__container}>
         <Logo/>
-        <ul className={`${classes.list} ${toggle ? `${classes.active}` : "" }`}>
+        <ul className={classes.list}>
           <Navitem url="/" active>
             Main page
           </Navitem>
@@ -30,9 +40,7 @@ function Nav() {
           </Navitem>
         </ul>
 
-        <div className={`${classes.burger} ${toggle ? `${classes.active}` : "" }`} onClick={onToggle}>
-          <span></span>
-        </div>
+        <NavToggle/>
       </div>
     </nav>
   );
