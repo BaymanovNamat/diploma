@@ -1,0 +1,27 @@
+.Toolbar {
+  background-color: rgb(76, 126, 207);
+  padding-bottom: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+
+  /* position: fixed;
+  z-index: 1;
+  width: 100%; */
+}
+.Toolbar .container {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  border-bottom: 2px solid black;
+  width: 980px;
+
+  padding-right: 1rem;
+}
+@media (max-width: 915px) {
+  .Toolbar ul {
+    display: none;
+  }
+}

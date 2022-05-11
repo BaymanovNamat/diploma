@@ -1,7 +1,7 @@
-import Logo from "../ui/Logo/Logo";
+
 import Navitem from "./Navitem/Navitem";
 import classes from "./Nav.module.css";
-import NavToggle from "./NavToggle/NavToggle";
+
 // import { useState } from "react";
 
 
@@ -22,10 +22,7 @@ function Nav() {
 
 
   return (
-    <nav className={classes.Nav}>
-      <div className={classes.Nav__container}>
-        <Logo/>
-        <ul className={classes.list}>
+    <ul className={`${classes.Nav}`}>
           <Navitem url="/" active>
             Main page
           </Navitem>
@@ -40,9 +37,6 @@ function Nav() {
           </Navitem>
         </ul>
 
-        <NavToggle/>
-      </div>
-    </nav>
   );
 }
 

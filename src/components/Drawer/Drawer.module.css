@@ -1,0 +1,57 @@
+.Drawer .content {
+  /* flex-direction: column; */
+
+  padding: 1rem 0;
+  
+  background-color: rgb(76, 126, 207);
+  padding-bottom: 3px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0; 
+
+  z-index: 90;
+
+
+  width: 230px;
+  transform: translate(-1200px);
+  transition: all .6s;
+
+  overflow: hidden;
+}
+
+
+.Drawer .backdrop {
+  background-color: rgba(0, 0, 0, 0.3);
+
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+
+  z-index: 80;
+
+  display: none;
+}
+
+.Drawer.open .backdrop{
+  display: block;
+}
+.Drawer.open .content {
+  transform: translateX(0);
+}
+
+@media (min-width: 915px) {
+  .Drawer .backdrop {
+    display: none;
+  }
+  .Drawer .content{
+    display: none; 
+  }
+}

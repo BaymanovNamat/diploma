@@ -18,3 +18,12 @@
   background-color: rgba(224, 227, 196, 0.426);
   /* transition-duration: .5s; */
 }
+
+
+@media (max-width: 915px) {
+  .Navitem {
+    border-bottom: none;
+    /* border-right: 5px solid transparent; */
+    width: 220px;
+  }
+}
