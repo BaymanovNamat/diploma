@@ -4,10 +4,12 @@ import classes from "./Drawer.module.css";
 
 
 function Drawer({open, toggle}) {
+
   const classNames = [classes.Drawer];
   if (open) {
     classNames.push(classes.open);
   }
+  
   return ( 
     <>
       <div className={classNames.join(" ")}>
