@@ -8,7 +8,8 @@ function Categoryitem({ category }) {
   return ( 
     <>   
       <div className={classes.Categoryitem}>
-          <Link to={"/categories" + category.categoryId}>
+          <img src={category.image} alt="#"/>
+          <Link to={"/categories/" + category.categoryId}>
             {category.title}
           </Link>
       </div>

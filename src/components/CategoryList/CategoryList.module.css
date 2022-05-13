@@ -3,3 +3,9 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.CategoryList div {
+  max-width: 150px;
+}
+.CategoryList div img {
+  width: 100%;
+}

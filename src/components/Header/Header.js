@@ -1,5 +1,5 @@
 import "./Header.css";
-function Header({image, title, children}) {
+function Header( {image, title, children} ) {
 
   return (
 

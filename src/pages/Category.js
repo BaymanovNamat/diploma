@@ -15,8 +15,9 @@ function Category() {
   return ( 
     <>
       <div>
-        <Header title={category.title} >
+        <Header title={category.title} image>
           <img src={category.image} alt="#"/>
+          {category.description}
         </Header>
       </div>
       
