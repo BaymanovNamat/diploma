@@ -1,6 +1,8 @@
 import { useParams } from "react-router-dom";
 import Header from "../components/Header/Header";
+import ProductList from "../components/ProductList/ProductList";
 import { getCategory } from "../data/categories";
+import { getProducts } from "../data/Products";
 
 
 
@@ -19,6 +21,8 @@ function Category() {
           <img src={category.image} alt="#"/>
           {category.description}
         </Header>
+
+        <ProductList products={getProducts(category.categoryId)}/>
       </div>
       
     </>

@@ -1,5 +1,7 @@
 import Header from "../components/Header/Header";
 import headerImage from "../assets/headerr.jpg";
+import CategoryList from "../components/CategoryList/CategoryList";
+import { getCategories } from "../data/categories";
 function Mainpage(props) {
   return (
 
@@ -79,6 +81,8 @@ function Mainpage(props) {
             </p>
           </div>
       </Header>
+
+      <CategoryList categories={getCategories()}/>
     </>
   );
 };

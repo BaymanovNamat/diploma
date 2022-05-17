@@ -9,8 +9,10 @@ function Allandroid(props) {
   return (
 
     <>
-      <Header title={"What is Android short information?"} image={headerImage}>
+      <Header title={"What is Android short information?"} >
         <p>
+        <img src={headerImage} alt="#"/>
+        {/* image={headerImage} */}
               <strong>
                 Who invented Android?
               </strong>
@@ -118,6 +120,7 @@ function Allandroid(props) {
               </ol>
 
             </p>
+            
           </div>
       </Header>
 
